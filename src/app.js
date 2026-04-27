@@ -9,7 +9,7 @@ app.use('/uploads', express.static('uploads'));
 app.use('/api', apiRoutes);
 
 app.use((req, res) => {
-    res.status(404).json({ message: "URL bhul hoyeche, /api/login ba /api/upload try koro" });
+    res.status(404).json({ message: "wrong URL, try /api/login or /api/upload" });
 });
 
 sequelize.sync().then(() => {
