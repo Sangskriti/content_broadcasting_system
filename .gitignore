@@ -1,0 +1,25 @@
+# Dependency directories
+node_modules/
+
+
+# Environment variables (Khub guruttopurno)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+
+# Local databases & Temporary files
+*.db
+*.sqlite
+.cache/
+.tmp/
+temp/
+
+
+public/uploads/
+uploads/
+storage/
+
